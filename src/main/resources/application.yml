@@ -21,10 +21,10 @@ spring:
 
   mail:
     host: smtp.gmail.com
-    from: ${MAIL_FROM:vunguyen10112k4@gmail.com} # Địa chỉ gửi email. Nếu có biến môi trường MAIL_FROM thì dùng, nếu không dùng mặc định.
+    from: ${MAIL_FROM:phamngoctu20042909@gmail.com} # Địa chỉ gửi email. Nếu có biến môi trường MAIL_FROM thì dùng, nếu không dùng mặc định.
     port: 587 # Cổng SMTP của Gmail
-    username: vunguyen10112k4 # Tên người dùng (email)
-    password: wwhh bopv lzll wxlf
+    username: phamngoctu # Tên người dùng (email)
+    password: 123456789
     # Mật khẩu ứng dụng của Gmail (tạo từ tài khoản Google)
     properties:
       mail:
